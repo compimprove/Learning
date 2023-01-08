@@ -1,0 +1,11 @@
+html 
+    head 
+        link(rel="stylesheet" href="app.css")
+    body 
+        form(action="/authenticate" method="post") 
+            h2 Login
+            div.input-field
+                input(type="text" name="username" placeholder="Enter Username")
+            div.input-field
+                input(type="password" name="password" placeholder="Enter Password")
+            input(type="submit" value="LogIn")
